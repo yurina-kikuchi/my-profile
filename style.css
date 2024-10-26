@@ -1,0 +1,99 @@
+/* Colors and fonts */
+
+body {
+  font-family: "Rasa", serif;
+  font-weight: <weight>;
+  font-style: normal;
+	background: #FFF4EA;
+	color: #3C3D37;
+  font-size: 20px;
+}
+
+h1, h2, h3 {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+h1 {
+  color: #C96868;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+h2 {
+	color: #ce1c49;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #7EACB5;
+}
+
+a:hover {
+  color: #FADFA1;
+}
+
+
+/* Container and id */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 2px 1px 10px -1px;
+  padding: 40px 30px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-pnk {
+  background-color:#C96868;
+  color: white;
+  padding: 10px 10px;
+  margin: 10px auto;
+  border-radius: 4px;
+}
+
+.btn-pnk:hover {
+  color: #3C3D37;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 20px;
+}
+
+.list-inline i {
+  font-size: 50px;
+}
+
+#introduction p {
+  margin-bottom: 30px;
+}
